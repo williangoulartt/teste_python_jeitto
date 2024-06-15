@@ -133,4 +133,11 @@ app/main.py: Define as rotas FastAPI.
 app/tests/: Contém os testes unitários.
 ```
 
-## 3. API FastAPI
+## 3. Outras questões do teste
+
+#### Para acessar a resposta sobre a diferença entre listas e tuplas consulte o  arquivo : 
+[Diferença entre Listas e Tuplas](./docs/listas_e_tuplas.md)
+
+
+#### Para acessar a resposta referente a query SQL consulte o arquivo : 
+[Diferença entre Listas e Tuplas](./docs/consulta_sql_avancada.md)

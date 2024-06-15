@@ -3,8 +3,6 @@ Para encontrar o número total de pedidos feitos por cada cliente na tabela 'Ped
 clientes que fizeram mais de 5 pedidos, podemos usar a seguinte consulta SQL:
 
 ```sh
-sql
-Copy code
 SELECT ClienteID, COUNT(*) AS TotalPedidos
 FROM Pedidos
 GROUP BY ClienteID
