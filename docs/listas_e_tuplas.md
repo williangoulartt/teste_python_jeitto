@@ -5,7 +5,7 @@ No entanto, existem algumas diferenças importantes entre elas:
 
 
 
-### Lista é Mutável: 
+## Lista é Mutável: 
 O conteúdo de uma lista pode ser alterado após sua criação (itens podem ser adicionados, removidos ou modificados).
 Sintaxe: Listas são definidas usando colchetes [].
 
@@ -34,7 +34,7 @@ Saída:
 
 
 
-### Tupla é Imutável: 
+## Tupla é Imutável: 
 O conteúdo de uma tupla não pode ser alterado após sua criação. Isso significa que itens não podem ser adicionados, removidos ou modificados.
 Sintaxe: Tuplas são definidas usando parênteses ().
 
