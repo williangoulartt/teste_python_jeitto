@@ -1,0 +1,48 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Arquivos do Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# Arquivos do Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.tmp
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.pid
+*.gz
+*.zip
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
+test.db
+
+# Arquivos de configuração
+*.env
+.env.local
+.env.dev
+.env.prod
+.env.test
+
+# Pytest cache
+.pytest_cache/
