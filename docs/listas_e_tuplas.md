@@ -15,19 +15,19 @@ Listas são geralmente usadas quando você precisa de uma coleção de itens que
 #### Exemplo Prático de Lista
 Imagine que você está gerenciando uma lista de tarefas que pode ser atualizada ao longo do dia.
 
-### Criando uma lista de tarefas
+#### Criando uma lista de tarefas
 tarefas = ["Comprar leite", "Enviar e-mails", "Estudar Python"]
 
-### Adicionando uma nova tarefa
+#### Adicionando uma nova tarefa
 tarefas.append("Fazer exercícios")
 
-### Removendo uma tarefa concluída
+#### Removendo uma tarefa concluída
 tarefas.remove("Enviar e-mails")
 
-### Modificando uma tarefa
+#### Modificando uma tarefa
 tarefas[1] = "Estudar Django"
 
-### Exibindo a lista atualizada
+#### Exibindo a lista atualizada
 print(tarefas)
 Saída:
 ['Comprar leite', 'Estudar Django', 'Fazer exercícios']
@@ -44,17 +44,17 @@ Tuplas são geralmente usadas para armazenar coleções de itens que não devem 
 #### Exemplo Prático de Tupla
 Imagine que você está lidando com coordenadas geográficas que não devem ser alteradas.
 
-### Criando uma tupla de coordenadas
+#### Criando uma tupla de coordenadas
 coordenadas = (40.7128, -74.0060)
 
-### Tentando modificar uma coordenada (isso causará um erro)
+#### Tentando modificar uma coordenada (isso causará um erro)
 coordenadas[0] = 41.0000  # TypeError: 'tuple' object does not support item assignment
 
-### Acessando os valores das coordenadas
+#### Acessando os valores das coordenadas
 latitude = coordenadas[0]
 longitude = coordenadas[1]
 
-### Exibindo as coordenadas
+#### Exibindo as coordenadas
 print(f"Latitude: {latitude}, Longitude: {longitude}")
 
 Saída:
