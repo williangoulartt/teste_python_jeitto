@@ -3,6 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
+
 class Cliente(Base):
     __tablename__ = 'clientes'
 
@@ -10,3 +11,4 @@ class Cliente(Base):
     nome = Column(String, index=True)
     email = Column(String, unique=True, index=True)
     telefone = Column(String)
+

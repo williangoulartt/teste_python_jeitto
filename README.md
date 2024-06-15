@@ -133,4 +133,4 @@ app/main.py: Define as rotas FastAPI.
 app/tests/: Contém os testes unitários.
 ```
 
-
+## 3. API FastAPI
