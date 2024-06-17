@@ -82,7 +82,7 @@ git clone https://github.com/williangoulartt/teste_python_jeitto.git
 cd teste_python_jeitto/src/fastapi_crud
 ```
 
-#### Crie e Ative um Ambiente Virtual (Caso tenha criado para executar a função fibonacci não é necessário criar um novo ambiente virtual)
+#### Crie e Ative um Ambiente Virtual
 
 ```sh
 python -m venv venv
